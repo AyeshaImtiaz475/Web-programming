@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #202124;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+}
+#header p{
+    font-size: 35px;
+    color: rgb(230, 229, 229);
+    margin-right: auto;
+}
+#header img{
+    width: 50px;
+    height: 50px;
+}
+h1 a{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(202, 137, 137);
+    text-decoration: none;
+}
+form{
+    margin: 20px;
+    color: rgb(199, 199, 199);
+    padding: 10px;
+}
+form h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+form input[type="text"]{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+form #dropdown{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+form button
+{
+    width: 80px;
+    height: 45px;
+    background-color: rgb(59, 156, 188);
+    color:white;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+form button a{
+    text-decoration: none;
+    color: white;
+}
+form button:hover
+{
+   background-color: transparent;
+   color: white;
+   font-weight: 100px;
+   border: 1px solid white;
+}
